@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <title>KilayKost Admin - Dashboard</title>
+
+  <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
+
+  <link href="vendor/datatables/dataTables.bootstrap4.css" rel="stylesheet">
+
+  
+  <link href="css/sb-admin.css" rel="stylesheet">
+
+</head>
+
+<body id="page-top">
+
+  <nav class="navbar navbar-expand navbar-dark bg-dark static-top">
+
+    <a class="navbar-brand mr-1" href="index.html"><img src="logoadmin.png" height="75"></a>
+
+    <div class="d-none d-md-inline-block form-inline ml-auto mr-0 mr-md-3 my-2 my-md-0">
+    </div>
+
+    <!-- Navbar -->
+    <ul class="navbar-nav ml-auto ml-md-0">
+      <li class="nav-item dropdown no-arrow mx-1"> 
+      <li class="nav-item dropdown no-arrow">
+        <a class="nav-link dropdown-toggle" href="#" id="userDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          <i class="fas fa-user-circle fa-fw" style="font-size: 45px"></i>
+        </a>
+        <div class="dropdown-menu dropdown-menu-right" aria-labelledby="userDropdown">
+          <div class="dropdown-divider"></div>
+          <a class="dropdown-item" href="#" data-toggle="modal" data-target="#logoutModal">Logout</a>
+        </div>
+      </li>
+    </li>
+    </ul>
+
+  </nav>
+
+  <div id="wrapper">
+    
+
+    <!-- Sidebar -->
+    <ul class="sidebar navbar-nav">
+      <li class="nav-item">
+        <a class="nav-link" href="index.html">
+          <i class="fas fa-fw fa-home"></i>
+          <span>Beranda</span>
+        </a>
+      </li>
+     
+      <li class="nav-item active">
+        <a class="nav-link" href="Pelanggan.html">
+          <i class="fas fa-fw fa-user"></i>
+          <span>Pelanggan</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="kamar.html">
+          <i class="fas fa-fw fa-bed"></i>
+          <span>Kamar</span></a>
+      </li>
+    </ul>
+
+
+
+    <div id="content-wrapper">
+      <div class="container-fluid">
+        <a href="#" class="btn btn-success" >Tambah Data</a>
+        <br><br>
+      <div class="card mb-3">
+          <div class="card-header">
+            <i class="fas fa-table"></i>
+            Data Pelanggan</div>
+          <div class="card-body">
+            <div class="table-responsive">
+              <table class="table table-bordered" width="100%" cellspacing="0">
+                <thead>
+                  <tr>
+                    <th>Id Pelanggan</th>
+                    <th>Nama Pelanggan</th>
+                    <th>Umur</th>
+                    <th>Asal</th>
+                    <th>No HandPhone</th>
+                    <th>Option</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>01</td>
+                    <td>Fadel Dengo</td>
+                    <td>18</td>
+                    <td>Amerika Serikat</td>
+                    <td>08219819012</td>
+                    <td class="text-center"><a href="#" class="btn btn-primary"  style="margin-right: 20px">Edit</a><a href="#" class="btn btn-danger">Hapus</a></td>
+                  </tr>
+                
+                </tbody>
+              </table>
+            </div>
+          </div>
+        </div>
+
+      </div>
+  </div>
+    </div>
+
+     
+  <!-- Bootstrap core JavaScript-->
+  <script src="vendor/jquery/jquery.min.js"></script>
+  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+  <!-- Core plugin JavaScript-->
+  <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+
+  <!-- Page level plugin JavaScript-->
+  <script src="vendor/chart.js/Chart.min.js"></script>
+  <script src="vendor/datatables/jquery.dataTables.js"></script>
+  <script src="vendor/datatables/dataTables.bootstrap4.js"></script>
+
+  <!-- Custom scripts for all pages-->
+  <script src="js/sb-admin.min.js"></script>
+
+  <!-- Demo scripts for this page-->
+  <script src="js/demo/datatables-demo.js"></script>
+  <script src="js/demo/chart-area-demo.js"></script>
+
+</body>
+
+</html>
